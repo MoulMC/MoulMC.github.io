@@ -1,80 +1,50 @@
 <!DOCTYPE html>
-<html>
-<style>
-body, html {
-  height: 100%;
-  margin: 0;
-}
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="nofollow"/>
 
-.bgimg {
-  background-image: url('https://github.com/MoulMC/MoulMC.github.io/raw/main/background.png');
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  color: white;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 25px;
-}
+    <meta name="description" content="Example Description">
+    <meta name="keywords" content="minecraft, server, mc, minecraft server, Example Server">
+    <meta name="author" content="Example.xyz">
+    <link rel="icon" href="assets/logo.ico"> 
 
-.topleft {
-  position: absolute;
-  top: 0;
-  left: 16px;
-}
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.Example.xyz">
+    <meta property="og:title" content="Example Server">
+    <meta property="og:description" content="Example Description">
+    <meta property="og:image" content="https://image">
+    <meta name="theme-color" content=#12345>
 
-.bottomleft {
-  position: absolute;
-  bottom: 0;
-  left: 16px;
-}
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.Example.xyz">
+    <meta property="twitter:title" content="Example Server">
+    <meta property="twitter:description" content="Example Description">
+    <meta property="twitter:image" content="https://image">
 
-.middle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="dist/style.css"> 
+    <script src="https://kit.fontawesome.com/5acf4d9e80.js" crossorigin="anonymous"></script>
 
-hr {
-  margin: auto;
-  width: 40%;
-}
-
-.button {
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-
-.button1 {background-color: #4CAF50;} /* Green */
-.button2 {background-color: #008CBA;} /* Blue */
-</style>
+</head>
 <body>
-
-<div class="bgimg">
-  <div class="topleft">
-    <p>Logo</p>
-  </div>
-  <div class="middle">
-    <h1>Website coming soon...</h1>
-    <hr>
-    <h4></h4>
-    <button class="button button2" onclick="window.location.href='https://discord.gg/ms6qF7P9wF';">
-      Our discord
-    </button>
-  </div>
-  <div class="bottomleft">
-    <p>Moul Network © 2022</p>
-  </div>
-</div>
-
+    <div class="bg"></div>
+    <!--- Particles -->  <div class="animation-wrapper"> <div class="particle particle-1"></div> <div class="particle particle-2"></div> <div class="particle particle-3"></div> <div class="particle particle-4"></div> </div>
+    <div class="center">
+        <div class="animate__animated animate__jackInTheBox">
+            <h1>TemplateServer</h1> <!--- Server Name -->
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> <!--- Description -->
+            <div class="animate__animated animate__bounceIn animate__delay-1s">
+                <a href="#"><button class="btn1"><i class="fab fa-discord"></i> Discord</button></a>
+                <a href="#"><button class="btn2"><i class="fas fa-shopping-basket"></i> Store</button></a>
+                <a href="#"><button class="btn3"><i class="fas fa-poll"></i> Vote</button></a>
+            </div>
+        </div>
+    </div>
+    <script src="app/js/script.js"></script>
+    <script src="https://kit.fontawesome.com/5acf4d9e80.js" crossorigin="anonymous"></script>
 </body>
 </html>
+<!--- WEBSITE BY: github.com/OLIMINATOR -->
